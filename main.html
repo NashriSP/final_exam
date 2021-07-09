@@ -19,7 +19,9 @@
 </head>
 <body>
     <script>
-        $('mydatatable').DataTable();
+        $(document).ready(function() {
+            $('#mydatatable').DataTable();
+            } );
     </script>
 
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
@@ -36,10 +38,100 @@
     </ul>
     </nav>
 
-    <div class="jumbotron">
-        <h1>Table Daftar Siswa CSE2019</h1>      
-        <p>IULI is the most popular <b>CAMPUS</b> for new Humans that don't know where to go after high school</p>
+    <div class="row" style="background-color: whitesmoke;">
+        <div class="col-sm-3">
+            <img src="pict.jpg" class="img-thumbnail" alt="Cinque Terre" width="200" height="160">
+        </div>
+        <div class="col-sm-6" style="color: #143d59;">
+            <h1><b>Nashri Aziz Alhazmy</b></h1>
+            <h3>CSE 2019, IULI</h3>
+            <br>
+            <p>email: nashriaziz65@gmail.com</p>
+            <p>phone: +6281354194571</p>
+        </div>
+        <div class="col-sm-3" style="text-align: center; color: #143d59">
+            <br>
+            <p><b>FACEBOOK</b></p>
+            <br>
+            <p><b>YOUTUBE</b></p>
+            <br>
+            <p><b>GITHUB</b></p>
+        </div>
     </div>
+
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-4">
+            <h4 style="padding-left: 20px;padding-top: 20px; color:#143d59 ;"> Profile </h4>
+        </div>
+    </div>
+    </div>
+    <div class="container" style="color:#143d59">
+        <p> Full name Nashri Aziz Al Hazmy, a student of the engineering faculty, majoring in 
+            computer science. doing several projects and still in the learning stage. </p>
+
+        <br>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h4 style="padding-left: 20px;padding-top: 20px; color:#143d59 ;"> Skills </h4>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="color:#143d59">
+        <h5>
+            <br>Python 
+            <br>
+            <br>C++
+            <br>
+            <br>Javascript        
+        </h5>
+
+        <br>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h4 style="padding-left: 20px;padding-top: 20px; color:#143d59 ;"> Projects </h4>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="color:#143d59">
+        <br>
+        <h5>
+            Game(That never finish)
+            <br>
+        </h5>
+        <p>Make games using Python using the pygame module, and make simple character movements using C++ in game engine Unity
+        <br>
+        <h5>
+            Somoke, and Movements Sensor
+            <br>
+        </h5>
+        <p>By using the esp82 microcontroller I managed to create smoke, and a movement sensor that uses the C++ programming language, and Javascirt to detect the signal given from the sensor.</p>
+        <br>
+
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4">
+                <h4 style="padding-left: 20px;padding-top: 20px; color:#143d59 ;"> Friends </h4>
+            </div>
+        </div>
+    </div>
+    <div class="container" style="color:#143d59">
+        <h5>List of friends, and students majoring in computer science 2019</h5>
+
+        <br>
+
+    </div>
+
 
     <div class="container mb-3 mt-3">
         <table class="table table-striped table-bordered" style="width: 100%" id="mydatatable">
